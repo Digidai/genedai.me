@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Gene Dai - Product Leader',
-  description: 'Product leader specializing in platform and tool products, with extensive experience in Recruitment, Fitness & Sports, E-commerce, and Sharing Economy fields.',
-  keywords: 'Product Management, Platform Product, User Growth, Recruitment, Fitness, E-commerce, Sharing Economy',
+  title: 'Gene Dai - Product Leader & AI Startup Co-Founder',
+  description: 'Product leader and AI startup co-founder specializing in platform and tool products, with extensive experience in Recruitment, Fitness & Sports, E-commerce, and Sharing Economy fields.',
+  keywords: 'Product Management, Platform Product, User Growth, AI Startup, Recruitment, Fitness, E-commerce, Sharing Economy',
   authors: [{ name: 'Gene Dai' }],
   creator: 'Gene Dai',
   publisher: 'Gene Dai',
@@ -54,6 +54,8 @@ export default function Home() {
             Gene Dai
           </h1>
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-4 mb-4">
+            <span className="text-lg sm:text-xl text-gray-600">AI Startup Co-Founder</span>
+            <span className="hidden sm:inline text-gray-400">•</span>
             <span className="text-lg sm:text-xl text-gray-600">User Growth</span>
             <span className="hidden sm:inline text-gray-400">•</span>
             <span className="text-lg sm:text-xl text-gray-600">Platform Product</span>
@@ -61,7 +63,7 @@ export default function Home() {
             <span className="text-lg sm:text-xl text-gray-600">User Product</span>
           </div>
           <p className="text-base sm:text-lg text-gray-700 max-w-2xl mx-auto leading-relaxed px-4">
-            Specializes in platform and tool products, experienced in Recruitment, Fitness & Sports, E-commerce, and Sharing Economy fields.
+            Specializes in platform and tool products, with expertise in AI technology and extensive experience in Recruitment, Fitness & Sports, E-commerce, and Sharing Economy fields.
           </p>
         </header>
       </div>
