@@ -48,38 +48,58 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main className="min-h-screen bg-white">
-      <div className="max-w-4xl mx-auto px-4 py-16">
-        <header className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Gene Dai</h1>
-          <p className="text-xl text-gray-600 mb-2">User Growth • Platform Product • User Product</p>
-          <p className="text-gray-700 max-w-2xl mx-auto">
+      <div className="max-w-3xl mx-auto px-6 py-20">
+        <header className="text-center mb-16">
+          <h1 className="text-5xl font-bold text-gray-900 mb-6 tracking-tight">Gene Dai</h1>
+          <div className="flex items-center justify-center space-x-4 mb-4">
+            <span className="text-xl text-gray-600">User Growth</span>
+            <span className="text-gray-400">•</span>
+            <span className="text-xl text-gray-600">Platform Product</span>
+            <span className="text-gray-400">•</span>
+            <span className="text-xl text-gray-600">User Product</span>
+          </div>
+          <p className="text-lg text-gray-700 max-w-2xl mx-auto leading-relaxed">
             Specializes in platform and tool products, experienced in Recruitment, Fitness & Sports, E-commerce, and Sharing Economy fields.
           </p>
         </header>
 
-        <section className="space-y-8">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-6">Professional Experience</h2>
-          <div className="space-y-6">
-            <div className="space-y-1">
-              <h3 className="text-lg font-medium text-gray-900">Head of Platform Product @ Zuoyebang</h3>
+        <section className="space-y-10">
+          <h2 className="text-2xl font-semibold text-gray-900 mb-8 tracking-tight">Professional Experience</h2>
+          <div className="space-y-8">
+            <div className="group">
+              <h3 className="text-xl font-medium text-gray-900 group-hover:text-blue-600 transition-colors duration-200">
+                Head of Platform Product @ Zuoyebang
+              </h3>
             </div>
-            <div className="space-y-1">
-              <h3 className="text-lg font-medium text-gray-900">Head of User Product @ Liepin</h3>
+            <div className="group">
+              <h3 className="text-xl font-medium text-gray-900 group-hover:text-blue-600 transition-colors duration-200">
+                Head of User Product @ Liepin
+              </h3>
             </div>
-            <div className="space-y-1">
-              <h3 className="text-lg font-medium text-gray-900">Product Director @ SMZDM</h3>
+            <div className="group">
+              <h3 className="text-xl font-medium text-gray-900 group-hover:text-blue-600 transition-colors duration-200">
+                Product Director @ SMZDM
+              </h3>
             </div>
-            <div className="space-y-1">
-              <h3 className="text-lg font-medium text-gray-900">Head of Community & Social Product @ BOSS Zhipin</h3>
+            <div className="group">
+              <h3 className="text-xl font-medium text-gray-900 group-hover:text-blue-600 transition-colors duration-200">
+                Head of Community & Social Product @ BOSS Zhipin
+              </h3>
             </div>
-            <div className="space-y-1">
-              <h3 className="text-lg font-medium text-gray-900">Head of Product & Business @ Kanzhun</h3>
+            <div className="group">
+              <h3 className="text-xl font-medium text-gray-900 group-hover:text-blue-600 transition-colors duration-200">
+                Head of Product & Business @ Kanzhun
+              </h3>
             </div>
-            <div className="space-y-1">
-              <h3 className="text-lg font-medium text-gray-900">Head of Product @ Duola Printing</h3>
+            <div className="group">
+              <h3 className="text-xl font-medium text-gray-900 group-hover:text-blue-600 transition-colors duration-200">
+                Head of Product @ Duola Printing
+              </h3>
             </div>
-            <div className="space-y-1">
-              <h3 className="text-lg font-medium text-gray-900">Product Partner & CPO @ Feel</h3>
+            <div className="group">
+              <h3 className="text-xl font-medium text-gray-900 group-hover:text-blue-600 transition-colors duration-200">
+                Product Partner & CPO @ Feel
+              </h3>
             </div>
           </div>
         </section>
