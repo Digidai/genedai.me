@@ -7,6 +7,12 @@ const nextConfig = {
   compress: true,
   reactStrictMode: true,
   swcMinify: true,
+  images: {
+    unoptimized: true,
+    domains: ['genedai.me'],
+  },
+  trailingSlash: true,
+  generateEtags: true,
 }
 
 export default nextConfig; 
