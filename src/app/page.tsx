@@ -1,12 +1,12 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'GeneDai - AI Gene Analysis Platform',
-  description: 'Advanced AI-powered gene analysis platform for genetic research and analysis',
-  keywords: 'AI, Gene Analysis, Genetics, Bioinformatics, Machine Learning, DNA Analysis',
-  authors: [{ name: 'GeneDai Team' }],
-  creator: 'GeneDai',
-  publisher: 'GeneDai',
+  title: 'Gene Dai - Product Leader',
+  description: 'Product leader specializing in platform and tool products, with extensive experience in Recruitment, Fitness & Sports, E-commerce, and Sharing Economy fields.',
+  keywords: 'Product Management, Platform Product, User Growth, Recruitment, Fitness, E-commerce, Sharing Economy',
+  authors: [{ name: 'Gene Dai' }],
+  creator: 'Gene Dai',
+  publisher: 'Gene Dai',
   formatDetection: {
     email: false,
     address: false,
@@ -14,17 +14,17 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL('https://genedai.me'),
   openGraph: {
-    title: 'GeneDai - AI Gene Analysis Platform',
-    description: 'Advanced AI-powered gene analysis platform for genetic research and analysis',
+    title: 'Gene Dai - Product Leader',
+    description: 'Product leader specializing in platform and tool products, with extensive experience in Recruitment, Fitness & Sports, E-commerce, and Sharing Economy fields.',
     url: 'https://genedai.me',
-    siteName: 'GeneDai',
+    siteName: 'Gene Dai',
     locale: 'en_US',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'GeneDai - AI Gene Analysis Platform',
-    description: 'Advanced AI-powered gene analysis platform for genetic research and analysis',
+    title: 'Gene Dai - Product Leader',
+    description: 'Product leader specializing in platform and tool products, with extensive experience in Recruitment, Fitness & Sports, E-commerce, and Sharing Economy fields.',
   },
   robots: {
     index: true,
@@ -47,17 +47,43 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center bg-white">
-      <header className="text-center">
-        <h1 className="text-4xl font-bold text-gray-900 mb-2">GeneDai</h1>
-        <p className="text-lg text-gray-600">AI Gene Analysis Platform</p>
-      </header>
-      <section className="mt-8 text-center max-w-2xl mx-auto px-4">
-        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Advanced Genetic Analysis</h2>
-        <p className="text-gray-600">
-          Leveraging artificial intelligence to provide cutting-edge genetic analysis and insights.
-        </p>
-      </section>
+    <main className="min-h-screen bg-white">
+      <div className="max-w-4xl mx-auto px-4 py-16">
+        <header className="text-center mb-12">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">Gene Dai</h1>
+          <p className="text-xl text-gray-600 mb-2">User Growth • Platform Product • User Product</p>
+          <p className="text-gray-700 max-w-2xl mx-auto">
+            Specializes in platform and tool products, experienced in Recruitment, Fitness & Sports, E-commerce, and Sharing Economy fields.
+          </p>
+        </header>
+
+        <section className="space-y-8">
+          <h2 className="text-2xl font-semibold text-gray-900 mb-6">Professional Experience</h2>
+          <div className="space-y-6">
+            <div className="space-y-1">
+              <h3 className="text-lg font-medium text-gray-900">Head of Platform Product @ Zuoyebang</h3>
+            </div>
+            <div className="space-y-1">
+              <h3 className="text-lg font-medium text-gray-900">Head of User Product @ Liepin</h3>
+            </div>
+            <div className="space-y-1">
+              <h3 className="text-lg font-medium text-gray-900">Product Director @ SMZDM</h3>
+            </div>
+            <div className="space-y-1">
+              <h3 className="text-lg font-medium text-gray-900">Head of Community & Social Product @ BOSS Zhipin</h3>
+            </div>
+            <div className="space-y-1">
+              <h3 className="text-lg font-medium text-gray-900">Head of Product & Business @ Kanzhun</h3>
+            </div>
+            <div className="space-y-1">
+              <h3 className="text-lg font-medium text-gray-900">Head of Product @ Duola Printing</h3>
+            </div>
+            <div className="space-y-1">
+              <h3 className="text-lg font-medium text-gray-900">Product Partner & CPO @ Feel</h3>
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
   )
 } 
