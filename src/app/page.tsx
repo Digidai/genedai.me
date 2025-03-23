@@ -47,18 +47,20 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white">
-      <div className="max-w-3xl mx-auto px-6 py-20">
+    <main className="min-h-screen bg-white flex items-center justify-center">
+      <div className="w-full max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
         <header className="text-center">
-          <h1 className="text-5xl font-bold text-gray-900 mb-6 tracking-tight">Gene Dai</h1>
-          <div className="flex items-center justify-center space-x-4 mb-4">
-            <span className="text-xl text-gray-600">User Growth</span>
-            <span className="text-gray-400">•</span>
-            <span className="text-xl text-gray-600">Platform Product</span>
-            <span className="text-gray-400">•</span>
-            <span className="text-xl text-gray-600">User Product</span>
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 sm:mb-6 tracking-tight">
+            Gene Dai
+          </h1>
+          <div className="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-4 mb-4">
+            <span className="text-lg sm:text-xl text-gray-600">User Growth</span>
+            <span className="hidden sm:inline text-gray-400">•</span>
+            <span className="text-lg sm:text-xl text-gray-600">Platform Product</span>
+            <span className="hidden sm:inline text-gray-400">•</span>
+            <span className="text-lg sm:text-xl text-gray-600">User Product</span>
           </div>
-          <p className="text-lg text-gray-700 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-base sm:text-lg text-gray-700 max-w-2xl mx-auto leading-relaxed px-4">
             Specializes in platform and tool products, experienced in Recruitment, Fitness & Sports, E-commerce, and Sharing Economy fields.
           </p>
         </header>
