@@ -9,7 +9,6 @@ const nextConfig = {
   swcMinify: true,
   images: {
     unoptimized: true,
-    domains: ['genedai.me'],
   },
   trailingSlash: true,
   generateEtags: true,
